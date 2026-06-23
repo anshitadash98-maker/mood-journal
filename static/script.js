@@ -1,9 +1,18 @@
 const submitBtn = document.getElementById('submit-btn');
 const journalInput = document.getElementById('journal-input');
 const resultDiv = document.getElementById('result');
+const loadingDiv = document.getElementById('loading');
 
 submitBtn.addEventListener('click', function() {
     const text = journalInput.value;
+
+    if (text.trim() === '') {
+        resultDiv.textContent = 'Please write something first.';
+        return;
+    }
+
+    loadingDiv.style.display = 'block';
+    resultDiv.textContent = '';
 
     fetch('/analyze', {
         method: 'POST',
@@ -12,10 +21,16 @@ submitBtn.addEventListener('click', function() {
     })
     .then(res => res.json())
     .then(data => {
+        loadingDiv.style.display = 'none';
         resultDiv.textContent = 'Mood: ' + data.label + ' (confidence: ' + Math.round(data.score * 100) + '%)';
         journalInput.value = '';
+    })
+    .catch(error => {
+        loadingDiv.style.display = 'none';
+        resultDiv.textContent = 'Something went wrong. Please try again.';
     });
 });
+
 function loadChart() {
     fetch('/entries')
         .then(res => res.json())

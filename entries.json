@@ -1,0 +1,68 @@
+[
+  {
+    "text": "Today was a good day",
+    "label": "POSITIVE",
+    "score": 0.9998705387115479,
+    "timestamp": "2026-06-22T21:43:37.874850"
+  },
+  {
+    "text": "",
+    "label": "POSITIVE",
+    "score": 0.7481209635734558,
+    "timestamp": "2026-06-22T22:04:10.594192"
+  },
+  {
+    "text": "",
+    "label": "POSITIVE",
+    "score": 0.7481209635734558,
+    "timestamp": "2026-06-22T22:04:10.768921"
+  },
+  {
+    "text": "I am not feeling good today",
+    "label": "NEGATIVE",
+    "score": 0.9997839331626892,
+    "timestamp": "2026-06-22T22:05:17.104702"
+  },
+  {
+    "text": "I am so happy today",
+    "label": "POSITIVE",
+    "score": 0.9998794794082642,
+    "timestamp": "2026-06-22T22:08:08.859018"
+  },
+  {
+    "text": "\"This was a terrible day",
+    "label": "NEGATIVE",
+    "score": 0.9973838925361633,
+    "timestamp": "2026-06-22T22:08:21.604421"
+  },
+  {
+    "text": "I went to the marke",
+    "label": "POSITIVE",
+    "score": 0.8326610326766968,
+    "timestamp": "2026-06-22T22:08:34.814621"
+  },
+  {
+    "text": "im feeling not too good nor too bad\n",
+    "label": "NEGATIVE",
+    "score": 0.9996839761734009,
+    "timestamp": "2026-06-22T22:30:34.601547"
+  },
+  {
+    "text": "im feeling not too good nor too bad\n",
+    "label": "NEGATIVE",
+    "score": 0.9996839761734009,
+    "timestamp": "2026-06-22T22:30:36.080444"
+  },
+  {
+    "text": "i went to market",
+    "label": "NEGATIVE",
+    "score": 0.9245845079421997,
+    "timestamp": "2026-06-22T22:30:56.910006"
+  },
+  {
+    "text": "i went to market",
+    "label": "NEGATIVE",
+    "score": 0.9245845079421997,
+    "timestamp": "2026-06-22T22:30:59.047065"
+  }
+]

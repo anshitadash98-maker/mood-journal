@@ -70,5 +70,17 @@
     "label": "POSITIVE",
     "score": 0.9998161196708679,
     "timestamp": "2026-06-23T11:17:56.795176"
+  },
+  {
+    "text": "I am feeling happy",
+    "label": "POSITIVE",
+    "score": 0.9998859167098999,
+    "timestamp": "2026-06-23T12:20:32.838522"
+  },
+  {
+    "text": "I went to the market",
+    "label": "NEGATIVE",
+    "score": 0.8260497450828552,
+    "timestamp": "2026-06-23T12:21:04.650936"
   }
 ]

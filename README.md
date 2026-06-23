@@ -25,9 +25,6 @@ Type a journal entry, and the app analyzes whether it's Positive, Negative, or N
 5. Run the app: `python app.py`
 6. Open `http://localhost:7860` in your browser
 
-## Screenshot
-
-(Add a screenshot here once you take one)
 
 ## What I Learned
 

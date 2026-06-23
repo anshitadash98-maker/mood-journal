@@ -82,5 +82,23 @@
     "label": "NEGATIVE",
     "score": 0.8260497450828552,
     "timestamp": "2026-06-23T12:21:04.650936"
+  },
+  {
+    "text": "I went to market",
+    "label": "NEUTRAL",
+    "score": 0.0,
+    "timestamp": "2026-06-23T12:32:40.929100"
+  },
+  {
+    "text": "\"I am so happy today\" \n",
+    "label": "POSITIVE",
+    "score": 0.6948,
+    "timestamp": "2026-06-23T12:33:05.354879"
+  },
+  {
+    "text": "This was a terrible day\" ",
+    "label": "NEGATIVE",
+    "score": 0.4767,
+    "timestamp": "2026-06-23T12:33:13.213273"
   }
 ]
